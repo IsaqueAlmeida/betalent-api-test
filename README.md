@@ -369,4 +369,5 @@ module.exports = ClientController
   - Ter colocado os meus conhecimentos a prova;
   - Ter buscado em vários sites e documentações para poder concluir a maior parte pedida;
   - E, por último, por terem me dado essa chance grandiosa de participar do Desafio Técnico.
+  - Obrigado `BeTalent`
       
