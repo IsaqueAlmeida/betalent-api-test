@@ -1,5 +1,8 @@
 # BeTalent API
 
+## Links Úteis
+ - [Meu Repositório](https://github.com/IsaqueAlmeida/betalent-api-test.git)
+
 ## Introdução
  - Este projeto é uma solução para o Teste Técnico Back-end da BeTalent, que consiste em estruturar uma API RESTful conectada a um banco de dados. O sistema permite o cadastro de usuários, clientes, produtos e vendas. As funcionalidades incluem autenticação JWT, CRUD para clientes e produtos, além do registro de vendas.
 
@@ -37,9 +40,12 @@
 ## Instalação
 
 1. Clone o repositório:
+
     ```bash
-    git clone <seu-repositorio>
+    git clone https://github.com/IsaqueAlmeida/betalent-api-test.git
+
     cd betalent-api
+
 
 2. Instale as dependências:
     ```bash
