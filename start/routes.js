@@ -1,13 +1,18 @@
 const Route = use('Route')
 
+// rota para testar
+Route.get('/', () => {
+  return 'Hello, AdonisJs'
+})
+
 // Rotas de autenticação
-Route.post('signup', 'UseController.signup')
+Route.post('signup', 'UserController.signup')
 Route.post('login', 'UserController.login')
 
 // Rotas protegidas
 Route.group(() => {
   Route.get('clients', 'ClientController.index')
-  Route.get('clients/:id,', 'ClientController.show')
+  Route.get('clients/:id', 'ClientController.show')
   Route.post('clients', 'ClientController.store')
   Route.put('clients/:id', 'ClientController.update')
   Route.delete('clients/:id', 'ClientController.delete')

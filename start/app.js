@@ -1,5 +1,16 @@
 'use strict'
 
+'use strict'
+
+const { ioc } = require('@adonisjs/fold')
+
+ioc.singleton('Models', () => {
+  return require('@adonisjs/lucid/src/Lucid/Model')
+})
+
+// Outros aliases, se necessário
+
+
 /*
 |--------------------------------------------------------------------------
 | Providers
